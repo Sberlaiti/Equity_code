@@ -1,0 +1,263 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color : #48ddb5;
+    margin : 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.imge{
+    width : 15%;
+}
+
+nav a{
+    font-weight: bold;
+    color : #48ddb5;
+    font-size: 110%;
+    transition-duration: 0.4s;
+    margin: 0;
+}
+
+a{
+    margin: auto;
+}
+
+.lien:hover{
+    font-size: 125%;
+    color :#48ddb5;
+    background-color: white;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.image{
+    width: 20%;
+    margin-right: 5px;
+    justify-items: center;
+    border-radius: 0.5cm;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 218, 218);
+    text-align: center;
+    padding: 1em;
+}
+
+.Who{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+}
+
+h2 + p{
+    font-size: 125%;
+}
+
+#Cont-Image{
+    width: 50%;
+}
+
+#Conte-Image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10%;
+}
+
+#Conte-Image img{
+    margin-right: 35px;
+    border-radius: 0.5cm;
+}
+
+.Identite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+div + p{
+    text-align: center;
+    font-size: 125%;
+}
+
+#Cont-text{
+    text-align: center;
+}
+
+a, img{
+    width: 120%;
+}
+
+h2{
+    text-align: center;
+}
+
+video{
+    width: 600px;
+    height: 400px;
+}
+
+.vidéo{
+    align-self: center;
+}
+
+.knowmore{
+    text-align: center;
+    font-weight: bold;
+    color : white;
+    background-color: #48ddb5;
+    padding: 0.5em;
+    border-radius: 0.5cm;
+    font-size: 115%;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.knowmore:hover{
+    border :2px solid #48ddb5;
+    border-radius: 0cm;
+    color:#48ddb5;
+    background-color: rgb(226, 218, 218);
+    font-size: 125%;
+    transition-duration: 0.4s;
+}
+
+footer{
+    background-color: rgb(226, 218, 218);
+}
+
+footer .foo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 218, 218);
+    text-align: center;
+    padding: 1em;
+    border-bottom: 2px solid rgb(53, 51, 51);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em;
+}
+
+label{
+    font-weight: bold;
+}
+
+i{
+    font-size: 75%;
+}
+
+.insta{
+    width: 5%;
+}
+
+a, .insta{
+    color :#48ddb5;
+    justify-self: center;
+}
+
+input{
+    border: 5px solid #48ddb5;
+    border-radius: 0.5cm;
+}
+
+textarea{
+    border: 5px solid #48ddb5;
+    border-radius: 0.5cm;
+}
+
+button{
+    font-size: 125%;
+    color : white;
+    background-color: #48ddb5;
+    border: 5px solid #48ddb5;
+    margin: 0 auto;
+    border-radius: 0.5cm;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+button:hover{
+    color:#48ddb5;
+    font-size: 135%;
+    background-color: rgb(226, 218, 218);
+    border-radius: 0cm;
+    transition-duration: 0.5s;
+}
+
+#Mentions{
+    font-size: 75%;
+}
+
+#Mentions, a{
+    text-align: center;
+}
+
+#Mentions a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}
+
+#Mentions a:hover{
+    color: #48ddb5;
+    transition-duration: 0.6s;
+}
+
+.rectangle{
+    margin-right: 20px;
+}
+
+.blog{
+    display: grid;
+    grid-template-areas: "div div div";
+    margin: 0 auto;
+}
+
+.list-image{
+    border-radius: 15cm 20cm 0cm 0cm;
+    width: 83%;
+    position : relative;
+    height: auto;
+}
+
+.list-image1{
+    border-radius: 20cm 20cm 0cm 0cm;
+    width: 83%;
+    position : relative;
+    height: auto;
+}
+
+.liste-date, a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list-text{
+    padding: 1em;
+    background-color: white;
+    border-radius: 0cm 0cm 0.5cm 0.5cm;
+}
+
+header{
+    text-align: center;
+}
